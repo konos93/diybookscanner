@@ -14,4 +14,5 @@ https://www.youtube.com/watch?v=Rkf49KPIPf0
 
 https://www.youtube.com/watch?v=dtM5ljDN9so
 
-i will upload some cad files in the future and some tools i use.
+here are somedesigns that i made in autodesk inventor pro 2015 u dont need to login in drobox to download them https://www.dropbox.com/s/3j7qmeuyrg5tb76/diybookscanner.rar?dl=0
+for the camera i would suggest to see the second video . probably your smartphone is enough 
