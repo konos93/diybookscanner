@@ -16,7 +16,7 @@ picam2.configure(preview_config)
 picam2.start()
 
 
-picam2.set_controls({"AfMode": controls.AfModeEnum.Continuous })
+picam2.set_controls({"AfMode": controls.AfModeEnum.Continuous , "AfSpeed": controls.AfSpeedEnum.Fast })
 #picam2.set_controls({"AfMode": controls.AfModeEnum.Manual, "LensPosition": 4.7}) #use first app_full.py to check the focus
 # change the lens potition and choose the one that have the most mb in thepage u capture
 
