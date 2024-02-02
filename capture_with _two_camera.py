@@ -42,6 +42,7 @@ picam1.configure(preview_config1)
 picam1.start()
 picam1.set_controls({"AfMode": controls.AfModeEnum.Continuous})
 #picam1.set_controls({"AfMode": controls.AfModeEnum.Manual, "LensPosition": 4.7}) #use first app_full.py to check the focus
+# change the lens potition and choose the one that have the most mb in thepage u capture
 
 # Set up the second camera
 picam2 = Picamera2(0)
@@ -53,6 +54,7 @@ picam2.configure(preview_config2)
 picam2.start()
 picam2.set_controls({"AfMode": controls.AfModeEnum.Continuous})
 picam2.set_controls({"AfMode": controls.AfModeEnum.Manual, "LensPosition": 4.7}) #use first app_full.py to check the focus
+# change the lens potition and choose the one that have the most mb in thepage u capture
 
 try:
     while True:
