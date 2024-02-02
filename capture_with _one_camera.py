@@ -17,6 +17,7 @@ picam2.start()
 
 
 picam2.set_controls({"AfMode": controls.AfModeEnum.Continuous })
+#picam2.set_controls({"AfMode": controls.AfModeEnum.Manual, "LensPosition": 4.7}) #use first app_full.py to check the focus
 
 
 
