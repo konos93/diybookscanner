@@ -53,7 +53,7 @@ preview_config2 = picam2.create_preview_configuration({"size": (4096, 2592)})
 picam2.configure(preview_config2)
 picam2.start()
 picam2.set_controls({"AfMode": controls.AfModeEnum.Continuous})
-picam2.set_controls({"AfMode": controls.AfModeEnum.Manual, "LensPosition": 4.7}) #use first app_full.py to check the focus
+#picam2.set_controls({"AfMode": controls.AfModeEnum.Manual, "LensPosition": 4.7}) #use first app_full.py to check the focus
 # change the lens potition and choose the one that have the most mb in thepage u capture
 
 try:
