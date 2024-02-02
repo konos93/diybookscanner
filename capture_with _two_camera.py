@@ -41,6 +41,7 @@ preview_config1 = picam1.create_preview_configuration({"size": (4096, 2592)})
 picam1.configure(preview_config1)
 picam1.start()
 picam1.set_controls({"AfMode": controls.AfModeEnum.Continuous})
+#picam1.set_controls({"AfMode": controls.AfModeEnum.Manual, "LensPosition": 4.7}) #use first app_full.py to check the focus
 
 # Set up the second camera
 picam2 = Picamera2(0)
@@ -51,6 +52,7 @@ preview_config2 = picam2.create_preview_configuration({"size": (4096, 2592)})
 picam2.configure(preview_config2)
 picam2.start()
 picam2.set_controls({"AfMode": controls.AfModeEnum.Continuous})
+picam2.set_controls({"AfMode": controls.AfModeEnum.Manual, "LensPosition": 4.7}) #use first app_full.py to check the focus
 
 try:
     while True:
