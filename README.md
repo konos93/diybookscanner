@@ -1,6 +1,5 @@
 # diybookscanner
-look since the forum is down https://www.diybookscanner.org/ i will try to answer any question as someone who build many designs to scan books .
-this is not something that i communicate with daniel , duering or any moderator of the forum. this repository wont replace diybookscanner community.
+https://www.youtube.com/watch?v=0PodyJVMFxg this is rasbery pi5 with 2 camera module v3
 
 https://www.youtube.com/watch?v=vYIL-p9ET4k
 
